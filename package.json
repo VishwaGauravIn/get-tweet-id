@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "get-tweet-id"
+    "url": "https://github.com/VishwaGauravIn/get-tweet-id.git"
   },
   "keywords": [
     "tweet",
@@ -31,6 +31,10 @@
     "status",
     "id"
   ],
-  "author": "Vishwa Gaurav",
+  "author": {
+    "name": "Vishwa Gaurav",
+    "url": "https://itsvg.in"
+  },
+  "homepage": "https://github.com/VishwaGauravIn/get-tweet-id",
   "license": "GPL-3.0-only"
 }
