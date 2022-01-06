@@ -29,8 +29,8 @@ npm i get-tweet-id
 ## How to use ?
 - **Step 1:** Install the npm package
 - **Step 2:** Import ```getTweetId``` in your app
-- **Step 3:** Pass Tweet url like ```getTweetId("https://mobile.twitter.com/VishwaGauravIn/status/1459411583617040386")```
-- **Result:** You will get the Tweet Id in return like ```1459411583617040386```
+- **Step 3:** Pass Tweet url like ```getTweetId("https://twitter.com/VishwaGauravIn/status/1472126167167627265")```
+- **Result:** You will get the Tweet Id in return like ```1472126167167627265```
 
 ## Example Code :
 
@@ -38,9 +38,9 @@ npm i get-tweet-id
 import getTweetId from "get-tweet-id";
 
 export default function Test() {
-    let url = "https://mobile.twitter.com/VishwaGauravIn/status/1459411583617040386"
+    let url = "https://twitter.com/VishwaGauravIn/status/1472126167167627265"
     let id = getTweetId(url)
-    console.log(id) // 1459411583617040386
+    console.log(id) // 1472126167167627265
     return (
         <div>
         
